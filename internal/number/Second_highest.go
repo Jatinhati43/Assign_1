@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// FindSecondHighest returns the second highest unique number in a slice.
+
 func FindSecondHighest(nums []int) (int, error) {
 	if len(nums) < 2 {
 		return 0, fmt.Errorf("array must contain at least two elements")
