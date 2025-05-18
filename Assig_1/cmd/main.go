@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	arr := []int{10, 5, 20, 8, 20}
+	arr := []int{10, 5, 20, 8, 20,454,543,53,4,3434,3222,2}
 
 	secondMax, err := numbers.FindSecondHighest(arr)
 	if err != nil {
